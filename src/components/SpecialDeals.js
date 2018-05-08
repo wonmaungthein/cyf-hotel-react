@@ -3,10 +3,10 @@ import React from "react";
 export class SpecialDeals extends React.Component {
   render() {
     const deals = [
-      "Trip to Japan",
-      "Trip to American",
-      "Trip to Scotland",
-      "Trip to Sudan"
+      "Trip to Japan 50% off",
+      "Trip to American 25% off",
+      "Trip to Scotland 60% off",
+      "Trip to Sudan 49% off"
     ];
 
     const dealsList = deals.map(deal => <p>{deal}</p>);

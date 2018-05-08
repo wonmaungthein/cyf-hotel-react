@@ -1,5 +1,6 @@
 import React from "react";
 // import moment from "react-moment";
+import moment from "moment";
 
 export class ResultTable extends React.Component {
   render() {
@@ -50,6 +51,15 @@ export class ResultTable extends React.Component {
                   <td>
                     {this.props.results.map(result => (
                       <tr>{result.checkOutDate}</tr>
+                    ))}
+                  </td>
+                  <td>
+                    {this.props.results.map(result => (
+                      <div>
+                        {moment(result.checkInDate)
+                          .from(result.checkOutDate)
+                          .slice(0, -3)}
+                      </div>
                     ))}
                   </td>
                 </tr>
