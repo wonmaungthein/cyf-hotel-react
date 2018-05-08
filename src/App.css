@@ -2,6 +2,35 @@
   text-align: left;
 }
 
+.cyf-img {
+  width: 100px;
+  background-color: lightgreen;
+  padding: 5px;
+  margin-left: 8px;
+}
+/* 
+.message,
+.special-deals {
+  padding: 3rem;
+} */
+
+.messageStyle {
+  background-color: gold;
+  padding: 2em;
+}
+/* 
+.message {
+  background-color: orange;
+}
+.special-deals {
+  background-color: plum;
+} */
+
+.numberStyle {
+  background-color: orangered;
+  padding: 2rem;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -9,7 +38,7 @@
 
 .App-header {
   background-color: #222;
-  height: 50px;
+  height: 100px;
   padding: 20px;
   color: white;
   text-align: left;
@@ -50,4 +79,13 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
+}
+/* 
+tbody {
+  border: 2px solid greenyellow;
+} */
+
+.momentStyle {
+  background: goldenrod;
+  padding: 2em;
 }

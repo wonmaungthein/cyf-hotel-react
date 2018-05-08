@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import { SearchButton } from "./SearchButton";
+import { SearchByName } from "./SearchByName";
 
 const Search = props => (
   <div className="search">
@@ -12,7 +14,7 @@ const Search = props => (
             <tr>
               <th>Customer id</th>
               <th />
-              <th></th>
+              <th>Customer Name</th>
               <th />
             </tr>
           </thead>
@@ -28,9 +30,22 @@ const Search = props => (
                 />
               </td>
               <td>
-                <button className="btn btn-primary fn-submit-name">Search IDs</button>
+                <SearchButton />
+              </td>
+              <td>
+                <input
+                  id="customerId"
+                  type="text"
+                  className="form-control"
+                  placeholder="Customer Name"
+                  name="customer Name"
+                />
+              </td>
+              <td>
+                <SearchButton />
               </td>
               {/* Add search by name here */}
+              {/* <SearchByName /> */}
             </tr>
           </tbody>
         </table>

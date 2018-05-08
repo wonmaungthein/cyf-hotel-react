@@ -3,13 +3,25 @@ import React, { Component } from "react";
 import Bookings from "./containers/Bookings.js";
 import Footer from "./components/Footer.js";
 import "./App.css";
+import Logo from "./components/Logo.js";
+import { BookingsMessage } from "./components/BookingsMessage.js";
+import { SpecialDeals } from "./components/SpecialDeals.js";
+import { MomentTest } from "./components/MomentTest.js";
+import * as FakeBookings from "./data/fakeBookings.json";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">CYF Hotel</header>
+        <Logo />
         <Bookings />
+        <div className="App-content">
+          <div className="container">
+            <BookingsMessage />
+            <SpecialDeals />
+            <MomentTest results={FakeBookings} />
+          </div>
+        </div>
         <Footer />
       </div>
     );
