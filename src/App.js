@@ -6,7 +6,6 @@ import "./App.css";
 import Logo from "./components/Logo.js";
 import { BookingsMessage } from "./components/BookingsMessage.js";
 import { SpecialDeals } from "./components/SpecialDeals.js";
-// import { MomentTest } from "./components/MomentTest.js";
 import * as FakeBookings from "./data/fakeBookings.json";
 
 class App extends Component {

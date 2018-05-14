@@ -2,10 +2,13 @@ import React from "react";
 // import moment from "react-moment";
 import moment from "moment";
 
+const resultBackground = {
+  // background: "orange"
+};
 export class ResultTable extends React.Component {
   render() {
     return (
-      <div>
+      <div style={resultBackground}>
         <h1>Results</h1>
         <div className="row">
           <div className="col">

@@ -16,18 +16,19 @@
 
 .messageStyle {
   background-color: gold;
-  padding: 2em;
+  padding: 4em;
 }
 /* 
 .message {
   background-color: orange;
-}
+}*/
+
 .special-deals {
-  background-color: plum;
-} */
+  /* background-color: plum; */
+}
 
 .numberStyle {
-  background-color: orangered;
+  /* background-color: orangered; */
   padding: 2rem;
 }
 
@@ -66,6 +67,7 @@
 }
 .search {
   padding: 5px 0 20px 0;
+  /* background-color: lightskyblue; */
 }
 
 tr {
@@ -79,6 +81,7 @@ tr {
 .footer {
   padding-top: 20px;
   text-align: center;
+  background-color: burlywood;
 }
 /* 
 tbody {
@@ -86,6 +89,6 @@ tbody {
 } */
 
 .momentStyle {
-  background: goldenrod;
+  /* background: goldenrod; */
   padding: 2em;
 }
