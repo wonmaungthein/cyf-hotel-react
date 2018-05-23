@@ -3,7 +3,7 @@ import React from "react";
 import moment from "moment";
 
 const resultBackground = {
-  // background: "orange"
+  background: "orange"
 };
 export class ResultTable extends React.Component {
   render() {

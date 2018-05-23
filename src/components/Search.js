@@ -30,7 +30,7 @@ const Search = props => (
                 />
               </td>
               <td>
-                <SearchButton />
+                <SearchButton Text="Search IDs" />
               </td>
               <td>
                 <input
@@ -42,7 +42,7 @@ const Search = props => (
                 />
               </td>
               <td>
-                <SearchButton />
+                <SearchButton Text="Search Name" />
               </td>
               {/* Add search by name here */}
               {/* <SearchByName /> */}
